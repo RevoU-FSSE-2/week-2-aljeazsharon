@@ -12,32 +12,55 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+
+/*Media Queries for Mobile*/
+@media only screen and (max-width: 576px) {
     .nav-bar {
         flex-direction: column;
-        position: fixed;
+        display: flex;
     }
 
     .nav-bar a {
         padding: 5px 10px 0px 10px;
-        font-size: 15px;
+    }
+
+    .header page {
+       padding: 5px 10px 0px 10px;
     }
 
     .header {
+        padding: 5px 10px 0px 10px;
         flex-direction: column;
-        width: 50px;
-        height: 50px;
-        margin-top: 130px;
-        font-size: 20px;
     }
 
+    .book-collection {
+         flex-direction: column;
+    }
     .img  {
         flex-direction: column;
         height: 50px;
         width: 50px;
     }
 
+    .rules {
+        padding: 5px 10px 0px 10px;
+        flex-direction: column;
+    }
+
+    .video {
+        padding: 5px 10px 0px 10px;
+        flex-direction: column;
+    }
+
+    .form-section{
+        padding: 5px 10px 0px 10px;
+        flex-direction: column;
+    }
     .grid-column {
         flex-direction: row;
+    }
+
+    .footer {
+        padding: 5px 10px 0px 10px;
     }
 }
