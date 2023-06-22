@@ -14,8 +14,8 @@
 
 
 /*Media Queries for Mobile*/
-@media only screen and (max-width: 110vh) {
-    .nav-bar {
+@media only screen and (max-width: 370px) {
+    nav-bar {
         display: flex;
         flex-direction: row;
         align-items: center;
