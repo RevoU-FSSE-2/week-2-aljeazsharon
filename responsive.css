@@ -13,7 +13,7 @@
 }
 
 
-/*Media Queries for Mobile
+/*Media Queries for Mobile*/
 @media only screen and (max-width: 110vh) {
     .nav-bar {
         display: flex;
@@ -76,9 +76,9 @@
         flex-direction: row;
         align-items: center;
     }
-}*/
+}
 
-/*Media Queries for desktop
+/*Media Queries for desktop*/
 @media only screen and (max-width: 768px) {
     .nav-bar {
         flex-direction: column;
@@ -128,7 +128,7 @@
     .footer {
         padding: 5px 10px 0px 10px;
     }
-} */
+}
 
 .navbar {
   display: none;
