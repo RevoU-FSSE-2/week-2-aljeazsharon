@@ -7,4 +7,4 @@
 ### Website Features:
 Home Menu which include introduction on the book club, gallery, video and also form Join.
 
-Website Result: https://preeminent-tulumba-c4ded4.netlify.app/
+Website Result: 
