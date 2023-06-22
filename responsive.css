@@ -14,7 +14,72 @@
 
 
 /*Media Queries for Mobile*/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 110vh) {
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-bar > a {
+        display: none;
+    }
+
+    .header page {
+       display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .book-collection {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .img  {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .rules {
+       display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .form-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .grid-column {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+/*Media Queries for desktop*/
+@media only screen and (max-width: 768px) {
     .nav-bar {
         flex-direction: column;
         display: flex;
